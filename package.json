@@ -4,7 +4,7 @@
   "description": "perpus",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start:dev": "nodemon index.js",
     "start": "node index.js"
   },
@@ -13,6 +13,7 @@
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "jest": "^28.1.3",
     "pg": "^8.7.3",
     "sequelize": "^6.21.3"
   },
